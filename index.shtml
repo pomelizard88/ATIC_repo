@@ -1,0 +1,49 @@
+Last login: Fri Oct 31 13:49:12 on ttys000
+Dylans-Air:~ Dylan$ ssh doharrow@students.gctaa.net
+doharrow@students.gctaa.net's password: 
+Welcome to Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-39-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+ Last login: Wed Oct 29 18:52:28 2014 from 158.59.224.227
+ doharrow@rackspace:~$ ls
+ images  public_html  unixstuff
+ doharrow@rackspace:~$ cd public_html/
+ doharrow@rackspace:~/public_html$ ls
+ index.css   index_nav.css  inspiration.shtml  test.shtml  tutorials
+ index.html  index.shtml    nav.html           TimBL
+ doharrow@rackspace:~/public_html$ cd tutorials/
+ doharrow@rackspace:~/public_html/tutorials$ ls
+ comments.html  css  html  index.html
+ doharrow@rackspace:~/public_html/tutorials$ cd css
+ doharrow@rackspace:~/public_html/tutorials/css$ ls
+ css_block.html      css_inline.html     css_page.html  mystyle.css  test.css
+ css_exercise2.html  css_lesson5_2.html  inline.css     nav.html     test.html
+ css_exercise3.html  css_lesson5.html    lesson3.css    test_2.html
+ doharrow@rackspace:~/public_html/tutorials/css$ cd ../html
+ doharrow@rackspace:~/public_html/tutorials/html$ ls
+ 2nd_table.html   forms1.html  gallery1.html  object.html     table.html
+ block.html       forms2.html  gallery2.html  old_index.html  unordered.html
+ definition.html  forms3.html  inline.html    ordered.html
+ favorite.html    forms4.html  min.html       special.html
+ doharrow@rackspace:~/public_html/tutorials/html$ vim min.html 
+ doharrow@rackspace:~/public_html/tutorials/html$ cd ../css
+ doharrow@rackspace:~/public_html/tutorials/css$ ls
+ css_block.html      css_inline.html     css_page.html  mystyle.css  test.css
+ css_exercise2.html  css_lesson5_2.html  inline.css     nav.html     test.html
+ css_exercise3.html  css_lesson5.html    lesson3.css    test_2.html
+ doharrow@rackspace:~/public_html/tutorials/css$ vim css_
+ css_block.html      css_inline.html     css_page.html
+ css_exercise2.html  css_lesson5_2.html  
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Arlington Technical Innovation Center</title>
+<style type="text/css">
+<footer>
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> Valid! </a> &nbsp;
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
+
+</body></html>
